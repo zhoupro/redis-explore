@@ -1,0 +1,16 @@
+{
+"configurations": {
+"redis proxy": {
+      "adapter": "vscode-cpptools",
+     "configuration": {
+        "request": "launch",
+        "program": "/home/vagrant/github/redis-dev/redis-anet/server",
+        "MIMode": "gdb",
+        "stopAtEntry": false,
+         "setupCommands": [
+            {"text": "-gdb-set print elements 0"}
+        ]
+      }
+     }
+}}
+
